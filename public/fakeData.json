@@ -1,0 +1,127 @@
+ [
+      {
+        "id" : 1,
+        "img": "https://i.ibb.co/h9qWQJL/img-1.png",
+        "name": "Spicy Chicken Curry",
+        "description": "A delicious and aromatic chicken curry with a spicy kick.",
+        "ingredients": [
+          "500g chicken breast, diced",
+          "2 onions, finely chopped",
+          "3 cloves garlic, minced",
+          "1 inch ginger, grated",
+          "2 tomatoes, diced",
+          "1 cup coconut milk",
+          "2 tbsp curry powder",
+          "1 tsp cayenne pepper",
+          "Salt and pepper to taste",
+          "2 tbsp vegetable oil",
+          "Fresh cilantro for garnish"
+        ],
+        "ingredients_length": 11,
+        "preparing_time": "40 minutes",
+        "calories": "350 calories "
+      },
+      {
+        "id" : 2,
+        "img": "https://i.ibb.co/2Pyyw0M/img-2.png",
+        "name": "Mushroom Risotto",
+        "description": "Creamy and flavorful risotto packed with mushrooms.",
+        "ingredients": [
+          "1 cup Arborio rice",
+          "200g mushrooms, sliced",
+          "1 onion, finely chopped",
+          "2 cloves garlic, minced",
+          "4 cups vegetable broth",
+          "1/2 cup white wine",
+          "1/4 cup grated Parmesan cheese",
+          "2 tbsp butter",
+          "Salt and pepper to taste",
+          "Fresh parsley for garnish"
+        ],
+        "ingredients_length": 10,
+        "preparing_time": "35 minutes",
+        "calories": "300 calories "
+      },
+      {
+        "id" : 3,
+        "img": "https://i.ibb.co/NjjNSKM/img-3.jpg",
+        "name": "Greek Salad",
+        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "ingredients": [
+          "2 tomatoes, diced",
+          "1 cucumber, diced",
+          "1 red onion, thinly sliced",
+          "1 bell pepper, diced",
+          "200g feta cheese, crumbled",
+          "1/4 cup Kalamata olives",
+          "2 tbsp olive oil",
+          "1 tbsp red wine vinegar",
+          "1 tsp dried oregano",
+          "Salt and pepper to taste"
+        ],
+        "ingredients_length": 10,
+        "preparing_time": "20 minutes",
+        "calories": "200 calories "
+      },
+      {
+        "id" : 4,
+        "img": "https://i.ibb.co/gTWfhRZ/img-4.jpg",
+        "name": "Greek Salad",
+        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "ingredients": [
+         
+          "1 bell pepper, diced",
+          "200g feta cheese, crumbled",
+          "1/4 cup Kalamata olives",
+          "2 tbsp olive oil",
+          "1 tbsp red wine vinegar",
+          "1 tsp dried oregano",
+          "Salt and pepper to taste"
+        ],
+        "ingredients_length": 10,
+        "preparing_time": "20 minutes",
+        "calories": "200 calories "
+      },
+      {
+        "id" : 5,
+        "img": "https://i.ibb.co/n7S5z4j/img-5.jpg",
+        "name": "Greek Salad",
+        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "ingredients": [
+         
+          "1 red onion, thinly sliced",
+          "1 bell pepper, diced",
+          "200g feta cheese, crumbled",
+          "1/4 cup Kalamata olives",
+          "2 tbsp olive oil",
+          "1 tbsp red wine vinegar",
+          "1 tsp dried oregano",
+          "Salt and pepper to taste"
+        ],
+       
+        "preparing_time": "20 minutes",
+        "calories": "200 calories "
+      },
+      {
+        "id" : 6,
+        "img": "https://i.ibb.co/8sqV1cj/img-6.jpg",
+        "name": "Greek Salad",
+        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "ingredients": [
+        
+          "1/4 cup Kalamata olives",
+          "2 tbsp olive oil",
+          "1 tbsp red wine vinegar",
+          "1 tsp dried oregano",
+          "Salt and pepper to taste"
+        ],
+       
+        "preparing_time": "20 minutes",
+        "calories": "200 calories "
+      }
+  
+     
+    
+    ]
+  
+  
