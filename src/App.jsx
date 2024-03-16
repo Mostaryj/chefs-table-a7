@@ -5,6 +5,7 @@ import Header from './components/Header'
 import MainCard from './MainCard'
 import { useState } from 'react'
 import WantToCook from './WantToCook'
+// import SingleCook from './SingleCook'
 
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
@@ -15,9 +16,7 @@ function App() {
   const [wantToCook, setWantToCook] = useState([]);
 
   const handleWantToCook = card=>{
-    // console.log('adding soon',card);
-    //  const newWantToCook = [...wantToCook, card];
-    // setWantToCook(newWantToCook);
+   
     const isExit = wantToCook.find((pd) => pd.id === card.id);
     if(! isExit){
       setWantToCook([...wantToCook, card])
@@ -25,7 +24,12 @@ function App() {
       toast('already exit')
     }
   
-  }
+  };
+
+
+
+  // const [currentCook, setCurrentCook] = useState([]);
+  
 
   useEffect(() => {
     fetch('./fakeData.json')
@@ -60,14 +64,15 @@ function App() {
           </div>
 
 
-
-
           <div className="border-2 rounded-2xl lg:w-1/3">
-          <WantToCook key={card.id} wantToCook={wantToCook}>
+           <WantToCook key={card.id} wantToCook={wantToCook}    >
 
-
-          </WantToCook>
+          </WantToCook> 
           <ToastContainer />
+
+       
+
+
 
 
           </div>

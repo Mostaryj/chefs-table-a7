@@ -7,7 +7,7 @@ const MainCard = ({ card, handleWantToCook }) => {
     return (
         <div className="container mx-auto">
             <div className="w-2/3">
-                <div className="card w-96 bg-base-100 shadow-xl border-2">
+                <div className="card w-96  bg-base-100 shadow-xl border-2">
                     <figure><img className="p-4" src={card.img} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">{card.name}</h2>
@@ -15,11 +15,14 @@ const MainCard = ({ card, handleWantToCook }) => {
                         <hr />
                         <h2>Ingredients:{card.ingredients.length}</h2>
                         <ul>
-                            <li>{card.ingredients.slice(0, 1)}</li>
-                            <li>{card.ingredients.slice(1, 2)}</li>
-                            <li>{card.ingredients.slice(3, 4)}</li>
-
+                        <li>{card.ingredients.slice(0, 1)}</li>
+                        <li>{card.ingredients.slice(1, 2)}</li>
+                        <li>{card.ingredients.slice(3, 4)}</li>
+                        <li>{card.ingredients.slice(5, 6)}</li>
+                        <li>{card.ingredients.slice(7, 8)}</li>
+                        <li>{card.ingredients.slice(3, 4)}</li>
                         </ul>
+                       
                         <hr />
                         <div className="flex justify-around">
                             <div>

@@ -2,7 +2,7 @@
       {
         "id" : 1,
         "img": "https://i.ibb.co/h9qWQJL/img-1.png",
-        "name": "Spicy Chicken Curry",
+        "name": "Spicy Chicken Noddles",
         "description": "A delicious and aromatic chicken curry with a spicy kick.",
         "ingredients": [
           "500g chicken breast, diced",
@@ -24,7 +24,7 @@
       {
         "id" : 2,
         "img": "https://i.ibb.co/2Pyyw0M/img-2.png",
-        "name": "Mushroom Risotto",
+        "name": "Mushroom Risotto (Asian)",
         "description": "Creamy and flavorful risotto packed with mushrooms.",
         "ingredients": [
           "1 cup Arborio rice",
@@ -40,13 +40,13 @@
         ],
         "ingredients_length": 10,
         "preparing_time": "35 minutes",
-        "calories": "300 calories "
+        "calories": "500 calories "
       },
       {
         "id" : 3,
         "img": "https://i.ibb.co/NjjNSKM/img-3.jpg",
-        "name": "Greek Salad",
-        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "name": "Chicken Fry (Asian)",
+        "description": "A refreshing fry with crisp veggies and tangy feta cheese.",
         "ingredients": [
           "2 tomatoes, diced",
           "1 cucumber, diced",
@@ -60,14 +60,14 @@
           "Salt and pepper to taste"
         ],
         "ingredients_length": 10,
-        "preparing_time": "20 minutes",
+        "preparing_time": "40 minutes",
         "calories": "200 calories "
       },
       {
         "id" : 4,
         "img": "https://i.ibb.co/gTWfhRZ/img-4.jpg",
-        "name": "Greek Salad",
-        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "name": "Chicken Fry (Asian Style)",
+        "description": "A tasty chicken fry with crisp veggies and tangy feta cheese.",
         "ingredients": [
          
           "1 bell pepper, diced",
@@ -76,17 +76,19 @@
           "2 tbsp olive oil",
           "1 tbsp red wine vinegar",
           "1 tsp dried oregano",
-          "Salt and pepper to taste"
+          "Salt and pepper to taste",
+          "200g feta cheese, crumbled"
+
         ],
         "ingredients_length": 10,
-        "preparing_time": "20 minutes",
-        "calories": "200 calories "
+        "preparing_time": "10 minutes",
+        "calories": "300 calories "
       },
       {
         "id" : 5,
         "img": "https://i.ibb.co/n7S5z4j/img-5.jpg",
-        "name": "Greek Salad",
-        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "name": "Sandwich From Italy",
+        "description": "A refreshing sandwich with crisp veggies and tangy feta cheese.",
         "ingredients": [
          
           "1 red onion, thinly sliced",
@@ -99,25 +101,31 @@
           "Salt and pepper to taste"
         ],
        
-        "preparing_time": "20 minutes",
-        "calories": "200 calories "
+        "preparing_time": "40 minutes",
+        "calories": "700 calories "
       },
       {
         "id" : 6,
         "img": "https://i.ibb.co/8sqV1cj/img-6.jpg",
-        "name": "Greek Salad",
-        "description": "A refreshing salad with crisp veggies and tangy feta cheese.",
+        "name": "Chicken Soup with vegetable",
+        "description": "A refreshing soup with crisp veggies and tangy feta cheese.",
         "ingredients": [
         
           "1/4 cup Kalamata olives",
           "2 tbsp olive oil",
           "1 tbsp red wine vinegar",
           "1 tsp dried oregano",
+          "Salt and pepper to taste",
+          "Salt and pepper to taste",
+          "Salt and pepper to taste",
           "Salt and pepper to taste"
+
+
+
         ],
        
-        "preparing_time": "20 minutes",
-        "calories": "200 calories "
+        "preparing_time": "30 minutes",
+        "calories": "600 calories "
       }
   
      
