@@ -1,6 +1,9 @@
+import PropTypes from 'prop-types'
 
-const MainCard = ({ card }) => {
-    console.log(card);
+
+
+const MainCard = ({ card, handleWantToCook }) => {
+    // console.log(card);
     return (
         <div className="container mx-auto">
             <div className="w-2/3">
@@ -18,7 +21,7 @@ const MainCard = ({ card }) => {
 
                         </ul>
                         <hr />
-                        <div className="flex justify-between">
+                        <div className="flex justify-around">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -35,7 +38,8 @@ const MainCard = ({ card }) => {
                             <p>{card.calories}</p>
                         </div>
                         <div className="card-actions ">
-                            <button className="btn rounded-3xl bg-green-500 font-bold">Want to Cook</button>
+                            <button onClick={()=>handleWantToCook(card)} className="btn rounded-xl bg-green-500 font-bold">Want to Cook</button>
+                            
                         </div>
                     </div>
                 </div>
@@ -45,3 +49,9 @@ const MainCard = ({ card }) => {
 };
 
 export default MainCard;
+
+MainCard.propTypes = {
+    card:PropTypes.object.isRequired,
+    handleWantToCook:PropTypes.func
+    
+}

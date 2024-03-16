@@ -13,10 +13,10 @@ const Header = () => {
 
 
                     </div>
-                    <a className="btn btn-ghost text-xl">Recipe Calories</a>
+                    <h3 className="font-bold text-xl">Recipe Calories</h3>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu font-medium menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li><a>Recipes</a></li>
                         <li><a>About</a></li>
