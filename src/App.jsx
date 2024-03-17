@@ -8,7 +8,7 @@ import WantToCook from './WantToCook'
 // import SingleCook from './SingleCook'
 
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [card, setCard] = useState([]);
@@ -65,14 +65,14 @@ function App() {
 
 
           <div className="border-2 rounded-2xl lg:w-1/3">
-           <WantToCook key={card.id} wantToCook={wantToCook}    >
+           <WantToCook key={card.id} wantToCook={wantToCook}
+           setWantToCook={setWantToCook}
+           >
 
           </WantToCook> 
           <ToastContainer />
 
        
-
-
 
 
           </div>

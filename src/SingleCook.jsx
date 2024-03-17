@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-const SingleCook = ({ wantToCook }) => {
+const SingleCook = ({ wantToCook, handlePreparing }) => {
   const { name, preparing_time, calories } = wantToCook;
   return (
     <div>
@@ -15,13 +15,11 @@ const SingleCook = ({ wantToCook }) => {
               <td>{calories}</td>
             </tr>
           
-            <button  className='btn bg-green-500 my-auto flex justify-end'>Preparing</button>
+            <button onClick={() =>handlePreparing(wantToCook)}  className='btn bg-green-500 my-auto flex justify-end'>Preparing</button>
           </div>
 
         </table>
       </div> 
-
-
     </div>
   );
 };
