@@ -14,7 +14,7 @@ const MainCard = ({ card, handleWantToCook }) => {
                         <p>{card.description}</p>
                         <hr />
                         <h2>Ingredients:{card.ingredients.length}</h2>
-                        <ul>
+                        <ul className='list-disc'>
                         <li>{card.ingredients.slice(0, 1)}</li>
                         <li>{card.ingredients.slice(1, 2)}</li>
                         <li>{card.ingredients.slice(3, 4)}</li>
