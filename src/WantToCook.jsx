@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
- import SingleCook from './SingleCook';
+ import Button from './Button'
+ import SingleCook from './SingleCook'
 import { useState } from 'react';
 
 
@@ -43,17 +44,28 @@ const WantToCook = ({ wantToCook, setWantToCook }) => {
 
 
 
-       <h3 className='text-center text-2xl font-bold mt-6'>Currently cooking: </h3>
+       <h3 className='text-center text-2xl font-bold mt-6'>Currently cooking: {current.length}</h3>
            <hr className='mt-2'/>
             <div className='flex justify-around text-lg font-medium'>
 
-           <p></p>    
+            <p></p>   
           <p>Name</p>
           <p>Time</p>
           <p>Calories</p>
-          <p></p>
-          
-         </div>       
+          <p></p>          
+         </div> 
+
+       
+         {
+                  current.map((removeCook) => <Button
+                    key={removeCook.id}
+                    wantToCook={wantToCook}
+                    removeCook={removeCook}
+                    
+                    > </Button>)
+
+          }
+
         </div>
 
 

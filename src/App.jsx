@@ -5,10 +5,10 @@ import Header from './components/Header'
 import MainCard from './MainCard'
 import { useState } from 'react'
 import WantToCook from './WantToCook'
-// import SingleCook from './SingleCook'
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function App() {
   const [card, setCard] = useState([]);
@@ -25,10 +25,6 @@ function App() {
     }
   
   };
-
-
-
-  // const [currentCook, setCurrentCook] = useState([]);
   
 
   useEffect(() => {
