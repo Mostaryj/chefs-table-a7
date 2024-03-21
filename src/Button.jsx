@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 
 
-const Button = ({removeCook}) => {
+const Button = ({removeCook, idx}) => {
 
    const {name, preparing_time, calories} = removeCook;
 
@@ -13,19 +13,16 @@ const Button = ({removeCook}) => {
           <div className='flex justify-between'>
 
             <tr >
-            <td></td> 
+            <td>{idx +1}</td> 
               <td>{name}</td>
               <td>{preparing_time}</td>
               <td>{calories}</td>
-            </tr>
-          
+            </tr>         
          
           </div>        
 
         </table>
-      </div> 
-
-            
+      </div>             
         </div>
     );
 };
@@ -33,7 +30,7 @@ const Button = ({removeCook}) => {
 export default Button;
 
 Button.propTypes = {
-   
+ idx:PropTypes.number,  
 removeCook:PropTypes.object,
   
 }

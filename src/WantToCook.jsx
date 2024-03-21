@@ -23,8 +23,7 @@ const WantToCook = ({ wantToCook, setWantToCook }) => {
              <h3 className='text-center text-2xl font-bold mt-6'>Want to Cook: {wantToCook.length}</h3>
             <hr className='mt-2'/>
             <div className='flex justify-around text-lg font-medium'>
-
-           <p></p>  
+            <p></p>
           <p>Name</p>
           <p>Time</p>
           <p>Calories</p>
@@ -34,9 +33,11 @@ const WantToCook = ({ wantToCook, setWantToCook }) => {
          <hr />
 
            {
-            wantToCook.map((wantToCook)  => <SingleCook 
+            wantToCook.map((wantToCook, index)  => <SingleCook 
                 key={wantToCook.id}
                  wantToCook={wantToCook}
+                 index = {index}
+               
                  handlePreparing={handlePreparing}
                
                  ></SingleCook>)
@@ -48,19 +49,20 @@ const WantToCook = ({ wantToCook, setWantToCook }) => {
            <hr className='mt-2'/>
             <div className='flex justify-around text-lg font-medium'>
 
-            <p></p>   
+            {/* <p></p>    */}
           <p>Name</p>
           <p>Time</p>
           <p>Calories</p>
-          <p></p>          
+          {/* <p></p>           */}
          </div> 
 
        
          {
-                  current.map((removeCook) => <Button
+                  current.map((removeCook, idx) => <Button
                     key={removeCook.id}
                     wantToCook={wantToCook}
                     removeCook={removeCook}
+                    idx ={idx}
                     
                     > </Button>)
 
